@@ -16,7 +16,7 @@ div {
   background-color: white;
   width: 250px;
   height: 350px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   position: relative;
 }
 
@@ -38,3 +38,39 @@ div {
 }
 
 #alternative-images img { width: 100px; }
+
+#fire {
+  background-color: red;
+  padding: 10px 15px;
+  font-size: 25px;
+}
+
+#earth {
+  background-color: green;
+  padding: 10px 15px;
+  font-size: 25px;
+}
+
+#water {
+  background-color: blue;
+  padding: 10px 15px;
+  font-size: 25px;
+}
+
+
+.border-default {
+  border: 1px solid black;
+}
+
+.fire {
+  border: 3px dashed red;
+}
+
+.water {
+  border: 5px double blue;
+}
+
+.earth { 
+  border: 6px groove green
+  /* border: 1px solid #000000; */
+}
